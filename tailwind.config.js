@@ -1,0 +1,73 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      fontFamily:{
+        bodyFont: ["Poppins", "sans-serif"],
+        titleFont:["Montserrat", "sans-serif"],
+      },
+      colors:{
+        bodyColor:"#282A3A",
+        lightColor:"#c4cfde",
+        boxbg:"linear-gradient(145deg, #le2024, #23272b)",
+        designColor:"#03C988",
+        head:"#FB2576",
+      },
+      boxShadow:{
+        shadowOne:"10px 10px 19px #1c1e22, -10px -10px 19px #262a2e",
+      },
+      width:{
+        110:"110px",
+        150:"150px",
+        190:"190px",
+        225:"225px",
+        275:"275px",
+        300:"300px",
+        340:"340px",
+        350:"350px",
+        375:"375px",
+        460:"460px",
+        656:"656px",
+        880:"880px",
+        508:"508px",
+      },
+      height:{
+        81:"81px",
+        150:"150px",
+        225:"225px",
+        275:"275px",
+        300:"300px",
+        340:"340px",
+        370:"370px",
+        420:"420px",
+        510:"510px",
+        600:"600px",
+        650:"650px",
+        685:"685px",
+        800:"800px",
+        "90vh": "90vh",
+      },
+      minWidth: {
+        210:"210px",
+        350:"350px",
+        620:"620px",
+      },
+      screens:{
+        xs:"320px",
+        sm:"375px",
+        sml:"500px",
+        md:"667px",
+        mdl:"768px",
+        lg:"960px",
+        lgl:"1024px",
+        xl:"1280px",
+        "2xl":"1536px",
+      },
+    },
+  },
+  plugins: [
+    require('tailwind-scrollbar'),
+    require('tailwind-scrollbar-hide'),
+  ],
+}
