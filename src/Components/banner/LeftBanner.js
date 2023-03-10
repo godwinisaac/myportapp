@@ -7,7 +7,7 @@ import { SiTailwindcss,  SiSpringboot,SiJava, SiMysql, SiWhatsapp } from "react-
 const LeftBanner = () => {
 
     const [text] = useTypewriter({
-        words:["Professional Coder.", "Full Stack Developer.","UI Designer."],
+        words:["Professional Coder.", "Full Stack Developer.","UI Designer.", "Mechanical Design Engineer."],
         loop: true,
         typeSpeed:20,
         deleteSpeed:10,
@@ -31,7 +31,7 @@ const LeftBanner = () => {
                 />
             </h2>
             <p className="text-base font-bodyFont leading-6 tracking-wide">
-            A dedicated Full-Stack Engineer with a keen interest in Application development and Computational Science with a strong passion for innovative technologies. Professional with a B'tech degree and trained from SLA institutes, enthusiastic about problem-solving and large-scale impacts. Has more than 6 Months of experience, is interested in devising innovative solutions, and constantly strives to challenge the status quo. Seeking an opportunity to deploy my skills in bringing together Science, Technology, and Innovation
+            I am a full-stack developer with 6+ months of experience in developing web applications using modern technologies. I am passionate about developing robust and scalable software solutions that meet the needs of clients and end-users. My expertise includes building and deploying applications using HTML, CSS, JavaScript, Node.js, React.js, MongoDB, MySQL, and Firebase.
             </p>
             <button className="callIcon animate-pulse">
                 <a href="tel:+918248815699" className=''>

@@ -81,7 +81,7 @@ const Footer = () => {
         </ul>
       </div>
       <div className="w-full h-full ">
-      <h3 className="text-xl uppercase text-head tracking-wider">
+      <h3 className="text-xl uppercase text-head tracking-wider flex justify-center items-center">
             Resources
         </h3>
         <ul className="flex flex-col gap-4 font-titleFont font-medium overflow-hidden py-2">
