@@ -1,7 +1,8 @@
 import React from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import { FaLinkedin,FaMailBulk,FaReact } from "react-icons/fa";
-import { SiTailwindcss,  SiSpringboot,SiJava, SiMysql } from "react-icons/si";
+
+import { SiTailwindcss,  SiSpringboot,SiJava, SiMysql, SiWhatsapp } from "react-icons/si";
 
 const LeftBanner = () => {
 
@@ -32,6 +33,11 @@ const LeftBanner = () => {
             <p className="text-base font-bodyFont leading-6 tracking-wide">
             A dedicated Full-Stack Engineer with a keen interest in Application development and Computational Science with a strong passion for innovative technologies. Professional with a B'tech degree and trained from SLA institutes, enthusiastic about problem-solving and large-scale impacts. Has more than 6 Months of experience, is interested in devising innovative solutions, and constantly strives to challenge the status quo. Seeking an opportunity to deploy my skills in bringing together Science, Technology, and Innovation
             </p>
+            <button className="callIcon animate-pulse">
+                <a href="tel:+918248815699" className=''>
+                    Call me
+                </a>
+            </button>
         </div>
         <div className="flex flex-col lgl:flow-row gap-6 lgl:gap-0 justify-between">
                 <div>
@@ -43,10 +49,14 @@ const LeftBanner = () => {
                         <a href='https://www.linkedin.com/in/godwin-isaac-n92i10s01/' Using target="_blank" rel="noreferrer" className="bannerIcon">
                             <FaLinkedin/>
                         </a>
+                        <a href='https://wa.me/918248815699' Using target="_blank" rel="noreferrer" className="bannerIcon">
+                            <SiWhatsapp/>
+                        </a>
+                        
                 </div>
             </div>
             <div className="">
-                <h2 className="text-base uppercase font-titleFont mb-4">
+                <h2 className="text-base uppercase font-titleFont mb-4 mt-6">
                     BEST SKILL ON
                 </h2>
                 <div className="flex gap-4">

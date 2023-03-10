@@ -20,6 +20,12 @@ const Experience = () => {
                     <div className="">
                         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
                             <ResumeCard
+                            title="Full Stact developer"
+                            subTitle="ZeroMinute.in (Jul_2022 - Till)"
+                            result="INDIA"
+                            des="Develop and customze WordPress websites and themes based on client reuirements. Desing and develop responsive and user-friendly websites using HTML, Tailwind CSS, JavaScript, and React js programming languages"
+                            />
+                            <ResumeCard
                             title="Façade Design Engineer"
                             subTitle="GCC(ALOMA).LLC (Oct_2020 - Jun_2022)"
                             result="UAE"

@@ -1,5 +1,7 @@
 import React from 'react';
 import {  FaLinkedin, FaMailBulk } from "react-icons/fa";
+import { MdOutlinePhonelinkRing } from "react-icons/md";
+import { SiWhatsapp } from 'react-icons/si';
 import { c1 } from '../../assets';
 const ContactLeft = () => {
   return (
@@ -10,7 +12,7 @@ const ContactLeft = () => {
                             Godwin isaac
                         </h3>
                         <p className="text-base font-normal text-gray-500">
-                            Java Developer
+                            Full Stact Developer
                         </p>
                         <p className="text-base text-gray-400 tracking-wide">
                             Chennai, Tamilnadu
@@ -36,6 +38,12 @@ const ContactLeft = () => {
                             </a>
                             <a href='https://www.linkedin.com/in/godwin-isaac-n92i10s01/' Using target="_blank" rel="noreferrer" className="bannerIcon">
                                 <FaLinkedin/>
+                            </a>
+                            <a href='https://wa.me/918248815699' Using target="_blank" rel="noreferrer" className="bannerIcon">
+                            <SiWhatsapp/>
+                            </a>
+                            <a href='tel:+918248815699' Using target="_blank" rel="noreferrer" className="bannerIcon">
+                            <MdOutlinePhonelinkRing/>
                             </a>
                         </div>
                     </div>

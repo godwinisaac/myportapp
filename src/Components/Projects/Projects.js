@@ -1,5 +1,5 @@
 import React from 'react';
-import { p1, p2,} from '../../assets';
+import { p1, p2, p3,} from '../../assets';
 import Title from '../Layouts/Title';
 import ProjectCard from './ProjectCard';
 
@@ -18,17 +18,22 @@ const Projects = () => {
          title="Food Delevery Website"
          des="Food delevery webapp for my portfolio this app done by React, Tailwindcss and Firebase(DataStorage)" 
          src={p1}
+         href="https://restaurantapp-d34b2.firebaseapp.com/"
          web="https://restaurantapp-d34b2.firebaseapp.com/"
         />
         <ProjectCard
          title="Valet Parking System Website"
          des="Valet Parking System  webapp for my portfolio this app done by Html, CSS, JS and Firebase(DataStorage)" 
          src={p2}
+         href="https://gimvaletparking.web.app/"
          web="https://gimvaletparking.web.app/"
         />
         <ProjectCard
-         title="Features Website"
-         des="React, Tailwindcss and Firebase(DataStorage)" 
+         title="zerominute.in"
+         des="This website was created in WordPress and hosted by Hostinger. when I start to create it was a basic function, then I created full animation and responsiveness.." 
+         src={p3}
+         href="https://zerominute.in/"
+         web="https://zerominute.in/"
          />
         <ProjectCard
          title="FeaturesWebsite"

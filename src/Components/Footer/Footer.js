@@ -1,5 +1,7 @@
 import React from 'react';
 import { FaMailBulk, FaLinkedin } from 'react-icons/fa';
+import { MdOutlinePhonelinkRing } from 'react-icons/md';
+import { SiWhatsapp } from 'react-icons/si';
 import {myimg} from "../../assets/index"
 
 const Footer = () => {
@@ -22,6 +24,12 @@ const Footer = () => {
             </a>
             <a href='https://www.linkedin.com/in/godwin-isaac-n92i10s01/' Using target="_blank" rel="noreferrer" className="bannerIcon">
                 <FaLinkedin/>
+            </a>
+            <a href='https://wa.me/918248815699' Using target="_blank" rel="noreferrer" className="bannerIcon">
+                <SiWhatsapp/>
+            </a>
+            <a href='tel:+918248815699' Using target="_blank" rel="noreferrer" className="bannerIcon">
+                <MdOutlinePhonelinkRing/>
             </a>
         </div>
       </div>
